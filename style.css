@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.heder {
+    background-color: #131313;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.Logo {
+    color: white;
+    margin-left: 92px;
+}
+
+.heder__icon {
+    /* background-image: url(imge/iconblack.jpg);*/
+    width: 200px;
+    height: 200px;
+}
+
+.header-navigation__tel {
+    margin-left: 22.36px;
+}
+
+.header-navigation__tel a {
+    color: white;
+    font-size: 25px;
+}
+
+.main {
+    overflow: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 707px;
+    background-image: url(imge/razm.jpg);
+
+
+
+}
+
+.container2 {
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 707px;
+    background-image: url(imge/fon..jpg);
+
+}
+
+
+
+.section {
+    position: relative;
+    background: black;
+    */ background-size: cover;
+    height: 707px;
+    max-width: 100%;
+    overflow: hidden;
+
+}
+
+.section2 {
+    position: relative;
+    background: black;
+    */ background-size: cover;
+    height: 707px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.section-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.heder_p {
+    color: white;
+    font-size: 25px;
+    margin-left: 400px;
+}
+
+.info_h1 {
+    color: white;
+    position: relative;
+    z-index: 1;
+    padding-top: 50px;
+    font-size: 40px;
+    padding-left: 60px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.footer {
+    background-color: #131313;
+    overflow: hidden;
+}
+
+.in1 {
+    background-image: url(imge/motor.jpg);
+    width: 300px;
+    height: 215px;
+    position: relative;
+    z-index: 1;
+    margin-top: 80px;
+}
+
+.in2 {
+    background-image: url(imge/korob.jpg);
+    width: 300px;
+    height: 215px;
+    position: relative;
+    z-index: 1;
+    margin-top: 80px;
+}
+
+
+.in3 {
+    background-image: url(imge/pod.jpg);
+    width: 300px;
+    height: 215px;
+    position: relative;
+    z-index: 1;
+    margin-top: 80px;
+}
+
+.in4 {
+    background-image: url(imge/rasx.jpg);
+    width: 300px;
+    height: 215px;
+    position: relative;
+    z-index: 1;
+    margin-top: 80px;
+}
+
+.container__in {
+    display: flex;
+
+    width: 600px;
+    height: 500px;
+}
+
+.container__in_1 {
+    margin-left: 280px;
+}
+
+.in__h2 {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
