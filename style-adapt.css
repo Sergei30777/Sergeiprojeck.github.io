@@ -1,0 +1,64 @@
+@media only screen and (max-width : 1200px) {
+    .section_mob {
+        display: flex;
+        background: black;
+        height: 400px;
+    }
+
+    .container_mob {
+        display: flex;
+    }
+
+    .heder_p {
+        margin-left: 40px;
+        margin-top: 20px;
+        font-size: 40px;
+    }
+
+    .Logo {
+        font-size: 40px;
+    }
+
+    .header-navigation__tel {
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+
+    .header-navigation__tel a {
+        color: white;
+        font-size: 65px;
+        text-decoration: none;
+    }
+
+    .info-logo {
+        margin-left: 10px;
+        margin-top: 60px;
+    }
+
+    .section {
+        display: none;
+    }
+
+    .heder {
+        display: none;
+    }
+
+    .container__in {
+
+        display: block;
+    }
+
+    .container2 {
+        background: red;
+        height: 1500px;
+    }
+
+    .section2 {
+        height: 1500px;
+    }
+
+    .footer {
+        display: block;
+    }
+
+}

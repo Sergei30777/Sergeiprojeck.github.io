@@ -7,6 +7,10 @@ body * {
     box-sizing: border-box;
 }
 
+.section_mob {
+    display: none;
+}
+
 .heder {
     background-color: #131313;
     overflow: hidden;
@@ -26,30 +30,59 @@ body * {
     margin-left: 92px;
 }
 
-.heder__icon {
-    /* background-image: url(imge/iconblack.jpg);*/
-    width: 200px;
-    height: 200px;
+.icon-log {
+    width: 120px;
+    height: 52px;
+    margin-left: 25px;
+    background-image: url(imge/icon1.jpg);
+    border-radius: 50%;
+    border: 2px solid black;
+
 }
 
 .header-navigation__tel {
-    margin-left: 22.36px;
+    margin-right: 22.36px;
 }
 
 .header-navigation__tel a {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+.header-navigation__tel a:hover {
+    color: #E3B873;
 }
 
 .main {
     overflow: hidden;
 }
 
+.info {
+    display: flex;
+    padding-top: 100px;
+
+
+}
+
+.info-logo {
+    background-image: url(imge/kadar2.jpg);
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: solid white;
+    z-index: 1;
+}
+
+
 .container {
     margin: 0 auto;
     max-width: 1440px;
-    height: 707px;
-    background-image: url(imge/razm.jpg);
+    height: 407px;
+    background-image: url(imge/fon2.png);
 
 
 
@@ -57,9 +90,9 @@ body * {
 
 .container2 {
     margin: 0 auto;
-    max-width: 1440px;
+    width: 1440px;
     height: 707px;
-    background-image: url(imge/fon..jpg);
+    background: #613f21;
 
 }
 
@@ -68,8 +101,8 @@ body * {
 .section {
     position: relative;
     background: black;
-    */ background-size: cover;
-    height: 707px;
+    background-size: cover;
+    height: 350px;
     max-width: 100%;
     overflow: hidden;
 
@@ -97,7 +130,7 @@ body * {
 .heder_p {
     color: white;
     font-size: 25px;
-    margin-left: 400px;
+    margin-left: 500px;
 }
 
 .info_h1 {
@@ -125,6 +158,8 @@ h1 {
     position: relative;
     z-index: 1;
     margin-top: 80px;
+    border-radius: 50%;
+    border: 10px solid black;
 }
 
 .in2 {
@@ -134,6 +169,8 @@ h1 {
     position: relative;
     z-index: 1;
     margin-top: 80px;
+    border-radius: 50%;
+    border: 10px solid black;
 }
 
 
@@ -144,6 +181,10 @@ h1 {
     position: relative;
     z-index: 1;
     margin-top: 80px;
+    border-radius: 50%;
+    border: 10px solid black;
+
+
 }
 
 .in4 {
@@ -153,11 +194,13 @@ h1 {
     position: relative;
     z-index: 1;
     margin-top: 80px;
+    border-radius: 50%;
+    border: 10px solid black;
+
 }
 
 .container__in {
     display: flex;
-
     width: 600px;
     height: 500px;
 }
