@@ -1,8 +1,24 @@
 @media only screen and (max-width : 1200px) {
-    .section_mob {
-        display: flex;
-        background: black;
-        height: 400px;
+
+
+
+    .icon-log {
+        height: 100px;
+    }
+
+    .content {
+        min-height: 125px;
+    }
+
+    .heder_p {
+        font-size: 45px;
+        margin: 0 auto;
+    }
+
+    .icon-log,
+    .header-navigation__tel,
+    .heder_p {
+        display: none;
     }
 
     .container_mob {
@@ -15,50 +31,75 @@
         font-size: 40px;
     }
 
-    .Logo {
-        font-size: 40px;
-    }
 
-    .header-navigation__tel {
-        margin-left: 20px;
-        margin-right: 0px;
-    }
 
-    .header-navigation__tel a {
-        color: white;
-        font-size: 65px;
-        text-decoration: none;
-    }
 
-    .info-logo {
-        margin-left: 10px;
-        margin-top: 60px;
-    }
-
-    .section {
-        display: none;
-    }
-
-    .heder {
-        display: none;
-    }
 
     .container__in {
-
+        overflow: hidden;
         display: block;
+        height: 1500px;
     }
 
     .container2 {
-        background: red;
+        background: #292626;
         height: 1500px;
     }
 
     .section2 {
-        height: 1500px;
+        height: 1900px;
+
+    }
+
+
+
+    .header-navigation__tel-mob {
+        display: flex;
+        height: 105px;
+        width: 900px;
+        border-radius: 20px;
+        text-align: center;
+        text-decoration: none;
+        margin: 0 auto;
+        justify-content: center;
+        background: #82cc49;
+        border: solid 4px white;
+        font-size: 80px;
+        color: white;
+
+    }
+
+    .heder_p-mob {
+        color: white;
+        font-size: 85px;
+        margin: 0 auto;
+        display: flex;
+    }
+
+
+
+    .header-navigation__tel_icon-div {
+        width: 300px;
+        height: 300px;
+        display: inline-flex;
+    }
+
+    .header-navigation__viber_icon,
+    .header-navigation__tel_icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .header-navigation__viber_icon {
+        background-image: url(imge/vibek-mob.jpg);
+    }
+
+    .header-navigation__tel_icon {
+        background-image: url(imge/tel-mob.jpg);
     }
 
     .footer {
-        display: block;
+        max-width: 1440px;
+        height: 200px;
     }
-
 }

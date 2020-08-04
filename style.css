@@ -19,7 +19,7 @@ body * {
 .content {
     display: flex;
     justify-content: space-between;
-    height: 83px;
+    min-height: 83px;
     align-items: center;
     max-width: 1440px;
     margin: 0 auto;
@@ -28,6 +28,14 @@ body * {
 .Logo {
     color: white;
     margin-left: 92px;
+    font-family: Nunito Sans;
+}
+
+.Logo2 {
+    font-family: Nunito Sans;
+    color: white;
+    margin-right: 45px;
+    font-size: 15px;
 }
 
 .icon-log {
@@ -48,6 +56,7 @@ body * {
     color: white;
     font-size: 20px;
     text-decoration: none;
+    font-family: Nunito Sans;
 }
 
 
@@ -81,7 +90,7 @@ body * {
 .container {
     margin: 0 auto;
     max-width: 1440px;
-    height: 407px;
+    height: 350px;
     background-image: url(imge/fon2.png);
 
 
@@ -92,7 +101,7 @@ body * {
     margin: 0 auto;
     width: 1440px;
     height: 707px;
-    background: #613f21;
+    background: #292626;
 
 }
 
@@ -109,12 +118,11 @@ body * {
 }
 
 .section2 {
-    position: relative;
     background: black;
-    */ background-size: cover;
-    height: 707px;
+    height: 850px;
     max-width: 100%;
     overflow: hidden;
+
 }
 
 .section-overlay {
@@ -129,18 +137,12 @@ body * {
 
 .heder_p {
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     margin-left: 500px;
+    font-family: Nunito Sans;
 }
 
-.info_h1 {
-    color: white;
-    position: relative;
-    z-index: 1;
-    padding-top: 50px;
-    font-size: 40px;
-    padding-left: 60px;
-}
+
 
 h1 {
     margin: 0;
@@ -155,8 +157,8 @@ h1 {
     background-image: url(imge/motor.jpg);
     width: 300px;
     height: 215px;
-    position: relative;
-    z-index: 1;
+
+
     margin-top: 80px;
     border-radius: 50%;
     border: 10px solid black;
@@ -166,8 +168,8 @@ h1 {
     background-image: url(imge/korob.jpg);
     width: 300px;
     height: 215px;
-    position: relative;
-    z-index: 1;
+
+
     margin-top: 80px;
     border-radius: 50%;
     border: 10px solid black;
@@ -178,8 +180,8 @@ h1 {
     background-image: url(imge/pod.jpg);
     width: 300px;
     height: 215px;
-    position: relative;
-    z-index: 1;
+
+
     margin-top: 80px;
     border-radius: 50%;
     border: 10px solid black;
@@ -191,8 +193,8 @@ h1 {
     background-image: url(imge/rasx.jpg);
     width: 300px;
     height: 215px;
-    position: relative;
-    z-index: 1;
+
+
     margin-top: 80px;
     border-radius: 50%;
     border: 10px solid black;
@@ -203,6 +205,7 @@ h1 {
     display: flex;
     width: 600px;
     height: 500px;
+    background-size: cover;
 }
 
 .container__in_1 {
@@ -213,4 +216,62 @@ h1 {
     position: relative;
     z-index: 1;
     color: white;
+    font-family: Nunito Sans;
+}
+
+.header-navigation__tel-mob {
+    display: none;
+}
+
+.heder_p-mob {
+    display: none;
+}
+
+.section2__icon {
+    height: 300px;
+    max-width: 1440px;
+    background: #292626;
+    margin: 0 auto;
+    padding-top: 75px;
+    display: flex;
+    background-size: cover;
+
+
+}
+
+.header-navigation__tel_icon-div {
+    width: 300px;
+    height: 300px;
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+.header-navigation__tel_icon {
+    display: flex;
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    background-image: url(imge/tel.jpg);
+    border: solid 4px white;
+    font-size: 50px;
+    color: white;
+    margin-right: 55px;
+}
+
+.header-navigation__viber_icon {
+    display: flex;
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    background-image: url(imge/vibek.jpg);
+    border: solid 4px white;
+    font-size: 50px;
+    color: white;
+
 }
